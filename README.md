@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🥖 Fırın & KOBİ e-Fatura Otomasyonu
-### Yapay Zeka Destekli Telegram & Veriban e-Fatura / e-Arşiv Çözümü
+# 🥖 e-Fatura Süreç Otomasyonu
+### Fırın & KOBİ'ler İçin Çok Modlu Telegram & Veriban Entegrasyon Motoru
 
 **Fırın tezgahındaki el yazısı defterlerden ve Telegram ses/metin mesajlarından tek tıkla resmi e-fatura taslağı oluşturan yeni nesil otomasyon sistemi.**
 
@@ -180,7 +180,7 @@ Bu sistemi kendi fırınınız, unlu mamuller tesisiniz, gıda dağıtım ağın
 İşletmenize özel demo talep etmek, sistemi denemek veya aylık abonelik koşullarını öğrenmek için dilediğiniz kanaldan ulaşabilirsiniz:
 
 - **GitHub İletişim:** [@whywouldnt](https://github.com/whywouldnt)
-- **Demo / İş Talebi:** [GitHub Discussions / Issues Üzerinden Mesaj Bırakın](https://github.com/whywouldnt/fatura-otomasyonu/issues)
+- **Demo / İş Talebi:** [GitHub Discussions / Issues Üzerinden Mesaj Bırakın](https://github.com/whywouldnt/e-fatura-surec-otomasyonu/issues)
 - **E-posta:** alirizaicenn@gmail.com
 
 ---
