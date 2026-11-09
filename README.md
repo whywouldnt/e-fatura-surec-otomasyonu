@@ -1,21 +1,21 @@
 <div align="center">
 
-# 🥖 e-Fatura Süreç Otomasyonu
-### Fırın & KOBİ'ler İçin Çok Modlu Telegram & Veriban Entegrasyon Motoru
+# ⚡ e-Fatura Süreç Otomasyonu
+### İşletmeler, KOBİ'ler ve Muhasebe Ekipleri İçin Çok Modlu e-Fatura & e-Arşiv Entegrasyon Motoru
 
-**Fırın tezgahındaki el yazısı defterlerden ve Telegram ses/metin mesajlarından tek tıkla resmi e-fatura taslağı oluşturan yeni nesil otomasyon sistemi.**
+**El yazısı notlardan, adisyon/çetele fotoğraflarından ve Telegram ses/metin mesajlarından tek tıkla resmi e-fatura taslağı oluşturan kurumsal süreç otomasyonu.**
 
 <br/>
 
 [![SaaS Ready](https://img.shields.io/badge/Status-SaaS%20Ready%20%2F%20Production-success.svg?style=for-the-badge&logo=rocket)](https://github.com/whywouldnt)
 [![AI Engine](https://img.shields.io/badge/AI%20Engine-Gemini%203.8%20Flash%20Vision-FF6F00.svg?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
-[![Automation](https://img.shields.io/badge/Portal-Veriban%20Playwright-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
+[![Automation](https://img.shields.io/badge/RPA%20Engine-Playwright%20Automation-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
 [![Interface](https://img.shields.io/badge/Interface-Telegram%20Bot%20API-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/)
-[![Architecture](https://img.shields.io/badge/Security-Fail--Closed%20%7C%20Private%20Core-darkred.svg?style=for-the-badge)](README.md)
+[![Security](https://img.shields.io/badge/Security-Fail--Closed%20%7C%20Private%20Core-darkred.svg?style=for-the-badge)](README.md)
 
 <br/>
 
-[🌟 Özellikler](#-öne-çıkan-özellikler) • [🏗️ Mimari & Çalışma Mantığı](#️-mimari--çalışma-mantığı) • [📱 Kullanım Senaryoları](#-kullanım-senaryoları) • [💼 İşletmeniz İçin İletişim & Abonelik](#-işletmeniz-için-iletişim--abonelik)
+[🌟 Özellikler](#-öne-çıkan-özellikler) • [🏗️ Mimari & Çalışma Mantığı](#️-mimari--çalışma-mantığı) • [📱 Kullanım Senaryoları](#-kullanım-senaryoları) • [💼 İşletmeniz İçin İletişim & Entegrasyon](#-işletmeniz-için-iletişim--entegrasyon)
 
 </div>
 
@@ -23,16 +23,16 @@
 
 ## 💡 Çözülen Problem
 
-Geleneksel fırınlar, unlu mamul üreticileri, toptancılar ve saha dağıtımı yapan KOBİ'ler için ay sonu fatura kesim süreçleri büyük bir operasyonel yüktür:
+Saha dağıtımı yapan toptancılar, üretim atölyeleri, perakendeciler, serbest meslek sahipleri ve mali müşavirler için ay sonu faturalama süreçleri ciddi bir zaman ve operasyon maliyetidir:
 
-- ❌ **Dağınık Notlar & Karışık El Yazıları:** Gün boyu tezgaha, un çuvalı üstüne veya defter sayfalarına karalanmış ekmek/ürün çeteleleri.
-- ❌ **Saatler Süren Portal Girişleri:** Muhasebe veya e-fatura portalına (Veriban vb.) tek tek girip müşteri aramak, vergi numarası kontrol etmek, KDV ve kuruş küsuratlarını hesaplamak.
-- ❌ **Kullanıcı Hataları:** Yanlış KDV oranı seçimi, birim fiyatın kuruş yerine tam yazılması veya yanlış cariye fatura kesilmesi riski.
-- ❌ **Zaman Kaybı:** Ay sonlarında işletme sahibinin veya muhasebecinin saatlerce bilgisayar başında mesai harcaması.
+- ❌ **Dağınık Notlar & Karışık İletişim:** Gün boyu WhatsApp/Telegram yazışmalarına dağılmış siparişler, el yazısıyla tutulmuş depo defterleri, adisyonlar veya karalanmış fişler.
+- ❌ **Manuel Portal Operasyonları:** E-Fatura veya muhasebe portallarına tek tek girip müşteri aramak, VKN/TCKN doğrulamak, satır satır kalem ve KDV oranları girmek.
+- ❌ **Kullanıcı & Kuruş Hataları:** Yanlış KDV tevkifatı, portal maskelerinde ondalık yutulması veya yanlış firmaya fatura kesilmesi gibi mali riskler.
+- ❌ **Gereksiz Mesai Kaybı:** Ay sonlarında işletme yöneticilerinin ve muhasebe personelinin saatlerce fatura ekranlarına kilitlenmesi.
 
-> **Bu Proje Ne Yapıyor?**  
-> Fırın sahibi ya da dağıtım şoförü, fırın defterinin fotoğrafını çeker veya Telegram'dan tek bir mesaj atar (*"kardesler 1200 ekmek 8.5 tl, özlem 500 ekmek"*).  
-> Sistem görseli/metni anında okur, hesaplamaları yapar, Telegram'a net bir onay kartı getirir. **`[Onayla]`** butonuna basıldığı anda tarayıcı robotu Veriban portalında faturaları resmi taslak olarak hazırlar, ekran görüntüsünü alır ve PDF'leri teslim eder.
+> **Bu Çözüm Ne Sağlıyor?**  
+> Saha personeli, şirket yöneticisi veya muhasebeci; el yazısı defterin/sipariş fişinin fotoğrafını çeker ya da Telegram'dan tek bir mesaj atar (*"kardesler 120 koli urun 85 tl, ozlem 50 paket malzeme"*).  
+> Sistem görseli veya metni saniyeler içinde çözümler, resmi ticari kayıtlarla eşleştirir, KDV ve kuruş sağlamasını yapar. Telegram'dan tek tıkla onay verildiği anda tarayıcı robotu portala girerek faturaları ilgili döneme resmi taslak olarak işler, ekran görüntüsünü alır ve PDF'leri teslim eder.
 
 ---
 
@@ -40,30 +40,30 @@ Geleneksel fırınlar, unlu mamul üreticileri, toptancılar ve saha dağıtım�
 
 ```mermaid
 flowchart LR
-    subgraph IN["📱 1. Saha Girişi"]
-        A["👤 İşletme Sahibi\n(Telegram)"]
-        A -->|El Yazısı Fotoğraf\nveya Ses/Metin| B["🤖 Akıllı Bot"]
+    subgraph IN["📱 1. Veri Girişi"]
+        A["👤 Saha Yetkilisi / Yönetici\n(Telegram)"]
+        A -->|El Yazısı Fiş / Defter\nveya Ses / Metin| B["🤖 Telegram Botu"]
     end
 
-    subgraph AI["🧠 2. Yapay Zeka & Matematik"]
-        B --> C["Multimodal OCR\n(Gemini 3.8 Flash)"]
-        C --> D["Ondalık KDV Sağlaması\n& Esnaf Eşleştirme"]
+    subgraph AI["🧠 2. Çok Modlu Ayrıştırma"]
+        B --> C["Multimodal Vision & NLP\n(Görsel + Metin Analizi)"]
+        C --> D["Cari Eşleştirme\n& Python Decimal KDV"]
     end
 
-    subgraph OK["📋 3. İki Aşamalı Onay"]
-        D --> E["Telegram İnteraktif Kart\n[✅ Onayla ve Kes]"]
-        A -.->|Güvenli Onay| E
+    subgraph OK["📋 3. Doğrulama & Güvenlik"]
+        D --> E["İnteraktif Onay Kartı\n[✅ Onayla ve Kes] [❌ İptal]"]
+        A -.->|Tek Tık Onay| E
     end
 
-    subgraph BOT["⚙️ 4. Portal Robotu"]
-        E --> F["Playwright Otomasyon Motoru\n(Veriban Portalı)"]
-        F --> G["Akıllı Müşteri Arama\n(BKF / BKA Tespiti)"]
-        F --> H["Tarih, Kalem & Notlar\n(Taslak Modu)"]
+    subgraph BOT["⚙️ 4. Otonom Portal Robotu"]
+        E --> F["Playwright Otomasyon Motoru\n(Headless / Headed)"]
+        F --> G["Canlı Cari Arama\n(BKF E-Fatura / BKA E-Arşiv)"]
+        F --> H["Tarih, Kalemler, Maske & Notlar\n(Taslak Modu)"]
     end
 
-    subgraph OUT["📦 5. Muhasebe Teslimatı"]
-        H --> I["PDF Arşivi + Toplu ZIP"]
-        H --> J["Excel Uyumlu İcmal (CSV/JSON)"]
+    subgraph OUT["📦 5. Belgeleme & Dağıtım"]
+        H --> I["PDF Arşivi + Güvenli ZIP"]
+        H --> J["Excel Uyumlu İcmal (UTF-8 BOM CSV / JSON)"]
         I --> A
     end
 ```
@@ -72,27 +72,27 @@ flowchart LR
 
 ## 🌟 Öne Çıkan Özellikler
 
-### 1. 📸 Multimodal Görsel & El Yazısı OCR
-- Unlu, yağlı veya aceleyle çizilmiş fırın çetelelerini ve adisyon defterlerini satır satır çözümler.
-- Türkçe karakter hatalarına, eksik hecelemelere ve yöresel esnaf lakaplarına karşı yüksek toleranslı NLP eşleştirmesi uygular.
+### 1. 📸 Çok Modlu (Multimodal) Görsel & El Yazısı OCR
+- Masadaki el yazısı sipariş defterlerini, adisyonları, sevk irsaliyelerini ve karalama notlarını yüksek doğrulukla okur.
+- Türkçe karakter eksikliklerine, kısaltmalara ve işletme içi gayriresmi müşteri takma adlarına karşı esnek doğal dil eşleştirmesi uygular.
+- Belge üzerindeki fatura açıklamalarını ve özel notları ayrıştırarak portaldaki ilgili faturanın açıklama alanına aktarır.
 
-### 2. ⚡ Akıllı Portala Entegrasyon (Veriban Motoru)
-- **Canlı Alıcı Arama:** Portaldaki kayıtlı carileri milisaniyeler içinde arayıp otomatik seçer.
-- **Dinamik Modül Tespiti:** Müşterinin durumuna göre otomatik olarak **E-Fatura (`BKF`)** veya **E-Arşiv (`BKA`)** yönlendirmesi yapar.
-- **Önceki Ay Sonu Kuralı:** Ayın ilk günlerinde kesilen faturaların resmi tarihini hatasız biçimde bir önceki ayın son gününe (ör. `31.10.2026`) ayarlar.
-- **Hassas Inputmask Koruması:** Portalın maskeli birim fiyat alanlarında kuruş yutulması (`12.5` yerine `125` yazılması) gibi riskleri sıfıra indiren mekanizma.
-- **Açıklama / Not İzolasyonu:** Çoklu müşteri mesajlarında fatura notlarını (ör. *"ekim ayı faturası"*) yalnızca ilgili carinin portal notlar paneline yazar.
+### 2. ⚡ Akıllı Portal Entegrasyonu (Robotic Process Automation)
+- **Canlı Cari Arama:** Portaldaki kayıtlı alıcıları arama motorundan milisaniyeler içinde bulur; yerel rehberde VKN olmasa bile kesim aksamaz.
+- **Otomatik Modül Tespiti:** Alıcının durumuna göre sistemi otomatik olarak **E-Fatura (`BKF`)** veya **E-Arşiv (`BKA`)** modülüne yönlendirir.
+- **Dönem Sonu Kuralı:** Ay başında kesilen faturaların resmi tarihini hatasız biçimde bir önceki ayın son gününe (ör. `31.10.2026`) ayarlar.
+- **Gelişmiş Inputmask Koruması:** Portalın özel maskeli birim fiyat alanlarında kuruş yutulması (`12.5` yerine `125` yazılması) gibi riskleri ortadan kaldıran doğrulamalı giriş mekanizması barındırır.
+- **Kendi Kendini Onaran Oturum (Self-Healing):** Tarayıcı kapansa, profil kilitlense veya oturum düşse bile sistemi yeniden ayağa kaldırıp işlemi tamamlar.
 
-### 3. 🛡️ Sıfır Risk & Güvenlik Kalkanı
-- **Taslak Modu (`VERIBAN_DRAFT_ONLY`):** Faturalar doğrudan resmi GİB onayına gitmez; önce Veriban *"Taslak Faturalar"* ekranına kaydedilir ve ekran görüntüsü kullanıcıya sunulur.
-- **Kuruş Sağlama Freni (Fail-Closed):** Portalın hesapladığı genel toplam ile taslak toplamı arasında kuruş farkı dahi çıksa işlem anında durdurulur.
-- **Yetkilendirme:** Bot sadece izin verilen telefon numaraları/Chat ID'leri ile çalışır.
-- **Kendi Kendini Onaran Tarayıcı (Self-Healing):** Tarayıcı kapansa veya profil kilitlense bile oturumu otomatik kurtarır.
+### 3. 🛡️ Finansal Güvenlik & Sıfır Hata Prensibi
+- **Taslak Modu Güvencesi:** Faturalar doğrudan resmi GİB onayına gitmez; önce portalın *"Taslak Faturalar"* ekranına kaydedilir, ekran görüntüsü alınır ve kullanıcının son kontrolüne sunulur.
+- **Kuruş Sağlama Freni (Fail-Closed):** Portalın hesapladığı genel toplam ile taslak toplamı arasında kuruş farkı tespit edilirse işlem güvenlik gereği derhal durdurulur.
+- **Yetkilendirme:** Sistem sadece kurum tarafından yetkilendirilen kullanıcı kimlikleri (Chat ID / Telefon) ile çalışır; yabancı erişimleri engeller.
 
 ### 4. 📊 Muhasebe ve Arşivleme Standartları
-- İndirilen faturalar `output/YYYY-MM/` hiyerarşisinde müşteri adına göre kataloglanır.
-- Muhasebecinizin tek tıkla Excel'de açabileceği UTF-8 BOM destekli **İcmal CSV** ve **JSON** raporları oluşturulur.
-- Toplu ZIP arşivi Zip-Slip güvenlik kalkanıyla paketlenip Telegram sohbetine teslim edilir.
+- Kesilen tüm faturalar `output/YYYY-MM/` dizininde cari ünvanı ve fatura numarasına göre düzenli kataloglanır.
+- Mali müşavirlerin doğrudan Excel'de açabileceği Türkçe karakter uyumlu UTF-8 BOM formatında **İcmal CSV** ve **JSON** raporları üretir.
+- Zip-Slip ve symlink korumalı güvenli arşivleme ile toplu ZIP paketi oluşturulup anında Telegram'a gönderilir.
 
 ---
 
@@ -100,54 +100,56 @@ flowchart LR
 
 ````carousel
 <!-- slide -->
-### 💬 Senaryo 1: Hızlı Telegram Mesajı
-İşletme sahibi sahada yürürken bota tek bir mesaj atar:
+### 💬 Senaryo 1: Hızlı Metin / Sipariş Girişi
+Kullanıcı sahada veya hareket halindeyken Telegram'dan tek bir mesaj atar:
 ```text
-bioden 1000 ekmek 12.5 tl aciklama: ekim ayi faturasi, santex 2300 ekmek 8.5 tl
+bioden 100 koli a4 kagit 125 tl aciklama: ekim siparisi, santex 20 paket toner 850 tl
 ```
 <!-- slide -->
-### 📋 Senaryo 2: Anında Onay Kartı
-Bot mesajı saniyeler içinde analiz eder ve doğrulanmış onay kartını getirir:
+### 📋 Senaryo 2: Anında Doğrulanmış Onay Kartı
+Sistem mesajı milisaniyeler içinde işler, carileri tespit eder ve onay kartını sunar:
 ```text
-📋 Fatura Taslağı (2 Adet Esnaf):
+📋 Fatura Taslağı (2 Adet Alıcı):
 ━━━━━━━━━━━━━━━━━━━━━
-1️⃣ BİODEN
-   • Tarih: 31.10.2026 (Önceki Ay Sonu)
-   • Kalemler: 1.000 Adet Ekmek x 12,50 TL (%1 KDV)
-   • 📝 Not/Açıklama: ekim ayi faturasi
-   • Toplam: 12.625,00 TL
+1️⃣ BİODEN KIRTASİYE LTD. ŞTİ.
+   • Tarih: 31.10.2026 (Dönem Sonu)
+   • Tür: E-FATURA [BKF]
+   • Kalemler: 100 Koli A4 Kağıt x 125,00 TL (%20 KDV)
+   • 📝 Not/Açıklama: ekim siparisi
+   • Ara Toplam: 12.500,00 TL | Toplam: 15.000,00 TL
 
-2️⃣ SANTEX
-   • Tarih: 31.10.2026 (Önceki Ay Sonu)
-   • Kalemler: 2.300 Adet Ekmek x 8,50 TL (%1 KDV)
-   • Toplam: 19.745,50 TL
+2️⃣ SANTEX TEKNOLOJİ A.Ş.
+   • Tarih: 31.10.2026 (Dönem Sonu)
+   • Tür: E-ARŞİV [BKA]
+   • Kalemler: 20 Paket Toner x 850,00 TL (%20 KDV)
+   • Ara Toplam: 17.000,00 TL | Toplam: 20.400,00 TL
 ━━━━━━━━━━━━━━━━━━━━━
-Genel Toplam: 32.370,50 TL
+Genel Toplam: 35.400,00 TL
 
 [✅ Onayla ve Kes]  [❌ İptal Et]
 ```
 <!-- slide -->
-### 📸 Senaryo 3: Fırın Çetelesi Fotoğrafı
-Fırın tezgahındaki defterin fotoğrafı çekilir ve açıklama yazılır:
-> *"Kasım ayı sonu faturaları, ekmek 8.5 TL"*
-Multimodal Vision motoru el yazısını çözer, esnafları eşleştirir ve aynı onay kartını üretir.
+### 📸 Senaryo 3: El Yazısı Fiş / Defter Fotoğrafı
+Depodaki el yazısı sevk defterinin veya adisyon fişinin fotoğrafı çekilip gönderilir:
+> *"Kasım ayı sonu sevkiyatları, KDV dahil"*
+Çok modlu yapay zeka motoru el yazısını çözer, carileri resmi vergi kayıtlarıyla eşleştirir ve onay kartı üretir.
 <!-- slide -->
-### 🚀 Senaryo 4: Otomatik Portala Giriş ve Teslimat
-`[✅ Onayla ve Kes]` butonuna basıldığında Playwright motoru Veriban'da taslakları oluşturur; fatura PDF'leri, portal ekran görüntüleri ve Excel icmal listesi Telegram'a anında iletilir.
+### 🚀 Senaryo 4: Otonom Portal İşlemi & Teslimat
+`[✅ Onayla ve Kes]` butonuna basıldığı anda RPA motoru portala bağlanır, taslakları oluşturur; fatura PDF'leri, portal ekran görüntüleri ve Excel icmal listesi Telegram sohbetine anında iletilir.
 ````
 
 ---
 
-## 🛠️ Teknoloji Yığını
+## 🛠️ Teknoloji Mimarisi
 
-| Alan | Kullanılan Teknolojiler |
+| Katman | Teknoloji & Standart |
 | :--- | :--- |
-| **Yapay Zeka & OCR** | Google Gemini 3.8 Flash Multimodal Vision / Xiaomi MiMo |
-| **Tarayıcı Otomasyonu** | Python Playwright (Chromium Headless & Headed) |
-| **Kullanıcı Arayüzü** | Python Telegram Bot API (Asenkron & Webhook/Polling) |
-| **Veri & Doğrulama** | Pydantic v2, Python `decimal.Decimal` (ROUND_HALF_UP) |
-| **Veri Formatları** | PDF Cataloging, UTF-8 BOM CSV, JSON, Zipfile Güvenlik Kalkanı |
-| **Mühendislik & Test** | Pytest (122+ Kapsamlı Birim ve Entegrasyon Testi) |
+| **Görsel & Metin Analizi** | Çok Modlu Yapay Zeka (Multimodal Vision OCR & NLP) |
+| **Süreç Otomasyonu (RPA)** | Python Playwright (Headless / Headed Tarayıcı Motoru) |
+| **Kullanıcı Arayüzü** | Asenkron Telegram Bot API |
+| **Veri Doğrulama & Hesaplama** | Pydantic v2, Python `decimal.Decimal` (ROUND_HALF_UP) |
+| **Raporlama & Belgelendirme** | Hiyerarşik PDF Kataloglama, UTF-8 BOM CSV, JSON, Güvenli ZIP Arşivi |
+| **Mühendislik & Kalite** | Pytest (122 Adet Birim, Entegrasyon ve Güvenlik Testi) |
 
 ---
 
@@ -155,33 +157,33 @@ Multimodal Vision motoru el yazısını çözer, esnafları eşleştirir ve ayn�
 
 > [!IMPORTANT]
 > **Telif ve Fikri Mülkiyet Bildirimi:**  
-> Bu depo bir **vitrin ve yetenek tanıtım (showcase) sayfasıdır**. Sistemin yüksek performanslı motor kodları, Veriban portal seçici algoritmaları, self-healing oturum yönetimi ve kurumsal iş mantığı gizli/kapalı kaynak (**proprietary**) olarak korunmaktadır.
+> Bu depo bir **vitrin ve yetenek tanıtım (showcase) sayfasıdır**. Sistemin yüksek performanslı motor kodları, portal seçici algoritmaları, self-healing oturum mekanizmaları ve iş mantığı kapalı kaynak (**proprietary**) olarak korunmaktadır.
 
-- **Veri İzolasyonu:** Her işletmenin verileri, tarayıcı profilleri ve oturum çerezleri tamamen izole çalışır.
+- **Veri İzolasyonu:** Her kurumun verileri, tarayıcı profilleri ve oturum çerezleri tamamen bağımsız ve şifreli çalışır.
 - **Sıfır Veri Sızıntısı:** Müşteri veritabanları veya kimlik bilgileri asla harici sunucularla paylaşılmaz.
 - **Fail-Closed Tasarım:** Şüpheli veya doğrulanamayan hiçbir işlem resmi portala yansıtılmaz.
 
 ---
 
-## 💼 İşletmeniz İçin İletişim & Abonelik
+## 💼 İşletmeniz İçin İletişim & Entegrasyon
 
-Bu sistemi kendi fırınınız, unlu mamuller tesisiniz, gıda dağıtım ağınız veya toptancı işletmeniz için kullanmak ister misiniz?
+Bu sistemi kendi işletmeniz, dağıtım ağınız, e-ticaret operasyonunuz veya muhasebe ofisiniz için kullanmak ister misiniz?
 
 ### 🚀 Neler Sunuyoruz?
-1. **İşletmenize Özel Kurulum:** Kullandığınız fatura serileri (`BKF`, `BKA` vb.), esnaf rehberiniz ve KDV oranlarınıza göre 24 saat içinde anahtar teslim entegrasyon.
-2. **Özel Portal Uyarlaması:** Veriban haricinde farklı bir e-fatura portalı (Paraşüt, Bizmu, Uyumsoft, Logo, Mikro vb.) kullanıyorsanız sisteme entegre edilebilir.
-3. **Bulut / Sunucu Yönetimi:** Bilgisayarınızı açık tutmanıza gerek kalmadan 7/24 bulut sunucu üzerinden Telegram ile kesintisiz kullanım.
-4. **Bakım & Güncelleme:** Portal veya mevzuat değişikliklerinde anında güncelleme desteği.
+1. **Kurumunuza Özel Entegrasyon:** Kullandığınız fatura serileri, müşteri rehberiniz ve KDV oranlarınıza göre anahtar teslim kurulum.
+2. **Farklı Portal & ERP Uyarlaması:** Veriban haricinde Paraşüt, Bizmu, Uyumsoft, Logo, Mikro vb. farklı e-fatura/muhasebe sistemlerine özel adaptör desteği.
+3. **Bulut / Sunucu Altyapısı:** Bilgisayarınızı açık tutmanıza gerek kalmadan 7/24 bulut ortamında Telegram üzerinden kesintisiz operasyon.
+4. **Bakım & Mevzuat Desteği:** Portal veya e-fatura mevzuat değişikliklerinde anında güncelleme.
 
 ---
 
 ### 📩 İletişim Kanalları
 
-İşletmenize özel demo talep etmek, sistemi denemek veya aylık abonelik koşullarını öğrenmek için dilediğiniz kanaldan ulaşabilirsiniz:
+Demo talep etmek, sistemi işletmenize uyarlamak veya iş birliği fırsatları için iletişime geçebilirsiniz:
 
 - **GitHub İletişim:** [@whywouldnt](https://github.com/whywouldnt)
 - **Demo / İş Talebi:** [GitHub Discussions / Issues Üzerinden Mesaj Bırakın](https://github.com/whywouldnt/e-fatura-surec-otomasyonu/issues)
-- **E-posta:** alirizaicenn@gmail.com
+- **E-posta:** [alirizaicenn@gmail.com](mailto:alirizaicenn@gmail.com)
 
 ---
 
