@@ -181,7 +181,7 @@ Bu sistemi kendi fırınınız, unlu mamuller tesisiniz, gıda dağıtım ağın
 
 - **GitHub İletişim:** [@whywouldnt](https://github.com/whywouldnt)
 - **Demo / İş Talebi:** [GitHub Discussions / Issues Üzerinden Mesaj Bırakın](https://github.com/whywouldnt/fatura-otomasyonu/issues)
-- **E-posta:** GitHub profiliniz üzerinden veya iletişime geçerek doğrudan teklif alabilirsiniz.
+- **E-posta:** alirizaicenn@gmail.com
 
 ---
 
