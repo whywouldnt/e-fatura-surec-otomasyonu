@@ -8,7 +8,6 @@
 <br/>
 
 [![SaaS Ready](https://img.shields.io/badge/Status-SaaS%20Ready%20%2F%20Production-success.svg?style=for-the-badge&logo=rocket)](https://github.com/whywouldnt)
-[![AI Engine](https://img.shields.io/badge/AI%20Engine-Gemini%203.8%20Flash%20Vision-FF6F00.svg?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
 [![Automation](https://img.shields.io/badge/RPA%20Engine-Playwright%20Automation-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
 [![Interface](https://img.shields.io/badge/Interface-Telegram%20Bot%20API-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/)
 [![Security](https://img.shields.io/badge/Security-Fail--Closed%20%7C%20Private%20Core-darkred.svg?style=for-the-badge)](README.md)
