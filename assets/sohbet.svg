@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720" role="img" aria-label="Telegram sohbet örneği: metinden fatura taslağına ve komut menüsü">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#162036"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <clipPath id="p1"><rect x="60" y="40" width="420" height="640" rx="36"/></clipPath>
+    <clipPath id="p2"><rect x="540" y="40" width="400" height="640" rx="36"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'SF Mono', Consolas, 'Liberation Mono', monospace; }
+      .in1 { opacity: 0; animation: show 9s ease-out infinite; animation-delay: 0s; }
+      .in2 { opacity: 0; animation: show2 9s ease-out infinite; }
+      .in3 { opacity: 0; animation: show3 9s ease-out infinite; }
+      @keyframes show  { 0% { opacity: 0; transform: translateY(8px);} 6%,94% { opacity: 1; transform: none;} 100% { opacity: 0; } }
+      @keyframes show2 { 0%,18% { opacity: 0; transform: translateY(8px);} 26%,94% { opacity: 1; transform: none;} 100% { opacity: 0; } }
+      @keyframes show3 { 0%,48% { opacity: 0; transform: translateY(8px);} 56%,94% { opacity: 1; transform: none;} 100% { opacity: 0; } }
+      .press { animation: press 9s ease-in-out infinite; }
+      @keyframes press { 0%,40% { fill: #2b5278; } 43%,47% { fill: #22c55e; } 50%,100% { fill: #2b5278; } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="720" rx="28" fill="url(#bg)"/>
+
+  <!-- ============ TELEFON 1: sohbet ============ -->
+  <g filter="url(#sh)">
+    <rect x="60" y="40" width="420" height="640" rx="36" fill="#0e1621" stroke="#2a3a52" stroke-width="2"/>
+  </g>
+  <g clip-path="url(#p1)">
+    <rect x="60" y="40" width="420" height="72" fill="#17212b"/>
+    <circle cx="104" cy="76" r="20" fill="#f59e0b"/>
+    <text x="104" y="82" text-anchor="middle" font-size="17">🥖</text>
+    <text x="134" y="72" font-size="16" font-weight="700" fill="#f1f5f9">Fatura Botu</text>
+    <text x="134" y="92" font-size="12" fill="#6ab3f3">bot · çevrimiçi</text>
+
+    <!-- kullanıcı mesajı -->
+    <g class="in1">
+      <rect x="196" y="132" width="264" height="92" rx="16" fill="#2b5278"/>
+      <text x="212" y="158" font-size="14" fill="#e8f1fb">yıldız 1200 ekmek 8,5 tl</text>
+      <text x="212" y="180" font-size="14" fill="#e8f1fb">çınar 400 simit 12 tl</text>
+      <text x="212" y="202" font-size="14" fill="#e8f1fb">açıklama: kasım teslimatları</text>
+      <text x="444" y="216" text-anchor="end" font-size="10" fill="#7fa6cc">09:14 ✓✓</text>
+    </g>
+
+    <!-- bot taslak kartı -->
+    <g class="in2">
+      <rect x="80" y="240" width="324" height="282" rx="16" fill="#182533"/>
+      <text x="96" y="266" font-size="14" font-weight="700" fill="#f8fafc">📋 Fatura Taslağı · 2 alıcı</text>
+      <text x="96" y="286" font-size="11" fill="#8ba1b8">Tarih: 30.11.2026 (dönem sonu)</text>
+      <line x1="96" y1="298" x2="388" y2="298" stroke="#2a3a52"/>
+
+      <text x="96" y="320" font-size="13" font-weight="700" fill="#fbbf24">1  YILDIZ MARKET</text>
+      <rect x="306" y="308" width="82" height="18" rx="9" fill="#1e3a5f"/>
+      <text x="347" y="321" text-anchor="middle" font-size="10" font-weight="700" fill="#93c5fd">e-FATURA</text>
+      <text x="112" y="340" font-size="12" fill="#cbd5e1">1.200 × Ekmek × 8,50 ₺ · KDV %1</text>
+      <text x="112" y="358" font-size="12" fill="#cbd5e1">Toplam <tspan class="mono" font-weight="700" fill="#f8fafc">10.302,00 ₺</tspan></text>
+
+      <text x="96" y="386" font-size="13" font-weight="700" fill="#fbbf24">2  ÇINAR BÜFE</text>
+      <rect x="306" y="374" width="82" height="18" rx="9" fill="#3b2a12"/>
+      <text x="347" y="387" text-anchor="middle" font-size="10" font-weight="700" fill="#fcd34d">e-ARŞİV</text>
+      <text x="112" y="406" font-size="12" fill="#cbd5e1">400 × Simit × 12,00 ₺ · KDV %1</text>
+      <text x="112" y="424" font-size="12" fill="#cbd5e1">Toplam <tspan class="mono" font-weight="700" fill="#f8fafc">4.848,00 ₺</tspan></text>
+
+      <line x1="96" y1="440" x2="388" y2="440" stroke="#2a3a52"/>
+      <text x="96" y="462" font-size="13" font-weight="700" fill="#f8fafc">Genel toplam</text>
+      <text x="388" y="462" text-anchor="end" font-size="14" font-weight="800" fill="#4ade80" class="mono">15.150,00 ₺</text>
+      <text x="96" y="484" font-size="11" fill="#8ba1b8">📝 Not: kasım teslimatları</text>
+      <text x="388" y="508" text-anchor="end" font-size="10" fill="#5f7a94">09:14</text>
+    </g>
+    <g class="in2">
+      <rect class="press" x="80" y="528" width="160" height="36" rx="10" fill="#2b5278"/>
+      <text x="160" y="551" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">✅ Onayla ve Kes</text>
+      <rect x="244" y="528" width="160" height="36" rx="10" fill="#2b5278"/>
+      <text x="324" y="551" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">❌ İptal</text>
+    </g>
+
+    <!-- sonuç -->
+    <g class="in3">
+      <rect x="80" y="578" width="324" height="58" rx="16" fill="#182533"/>
+      <text x="96" y="602" font-size="13" font-weight="700" fill="#4ade80">✅ 2 fatura Veriban'a iletildi</text>
+      <text x="96" y="622" font-size="11" fill="#8ba1b8">📄 PDF'ler + icmal_2026-11.csv ekte</text>
+    </g>
+
+    <rect x="60" y="646" width="420" height="34" fill="#17212b"/>
+    <text x="84" y="668" font-size="13" fill="#5f7a94">Mesaj yazın…</text>
+  </g>
+
+  <!-- ============ TELEFON 2: "/" menüsü ============ -->
+  <g filter="url(#sh)">
+    <rect x="540" y="40" width="400" height="640" rx="36" fill="#0e1621" stroke="#2a3a52" stroke-width="2"/>
+  </g>
+  <g clip-path="url(#p2)">
+    <rect x="540" y="40" width="400" height="72" fill="#17212b"/>
+    <circle cx="584" cy="76" r="20" fill="#f59e0b"/>
+    <text x="584" y="82" text-anchor="middle" font-size="17">🥖</text>
+    <text x="614" y="72" font-size="16" font-weight="700" fill="#f1f5f9">Fatura Botu</text>
+    <text x="614" y="92" font-size="12" fill="#6ab3f3">bot · çevrimiçi</text>
+
+    <text x="740" y="150" text-anchor="middle" font-size="12" fill="#5f7a94">“/” yazınca açılan komut menüsü</text>
+
+    <rect x="556" y="176" width="368" height="438" rx="14" fill="#17212b" stroke="#2a3a52"/>
+    <g font-size="13">
+      <text x="576" y="208" font-weight="700" fill="#6ab3f3">/start</text>
+      <text x="726" y="208" fill="#9fb3c8">Botu başlatır</text>
+      <text x="576" y="244" font-weight="700" fill="#6ab3f3">/yardim</text>
+      <text x="726" y="244" fill="#9fb3c8">Nasıl kullanılır?</text>
+      <text x="576" y="280" font-weight="700" fill="#6ab3f3">/mod</text>
+      <text x="726" y="280" fill="#9fb3c8">Taslak / tam otonom</text>
+      <text x="576" y="316" font-weight="700" fill="#6ab3f3">/rehber</text>
+      <text x="726" y="316" fill="#9fb3c8">Kayıtlı esnaf listesi</text>
+      <text x="576" y="352" font-weight="700" fill="#6ab3f3">/rehber_guncelle</text>
+      <text x="726" y="352" fill="#9fb3c8">Geçmişten senkronize</text>
+      <text x="576" y="388" font-weight="700" fill="#6ab3f3">/musteri_ekle</text>
+      <text x="726" y="388" fill="#9fb3c8">Yeni esnaf ekler</text>
+      <text x="576" y="424" font-weight="700" fill="#6ab3f3">/kdv</text>
+      <text x="726" y="424" fill="#9fb3c8">Ürün KDV tablosu</text>
+      <text x="576" y="460" font-weight="700" fill="#6ab3f3">/iptal</text>
+      <text x="726" y="460" fill="#9fb3c8">Taslakları iptal eder</text>
+    </g>
+    <line x1="576" y1="482" x2="904" y2="482" stroke="#2a3a52" stroke-dasharray="4 4"/>
+    <text x="576" y="504" font-size="10" font-weight="700" fill="#fbbf24" letter-spacing="1.2">YALNIZCA YÖNETİCİ</text>
+    <g font-size="13">
+      <text x="576" y="534" font-weight="700" fill="#fbbf24">/kullanim</text>
+      <text x="726" y="534" fill="#9fb3c8">Aylık yapay zeka maliyeti</text>
+      <text x="576" y="570" font-weight="700" fill="#fbbf24">/numara_geri</text>
+      <text x="726" y="570" fill="#9fb3c8">Silinen taslak no'sunu al</text>
+    </g>
+    <text x="576" y="598" font-size="10" fill="#5f7a94">Rol bazlı menü · Telegram setMyCommands</text>
+
+    <rect x="540" y="630" width="400" height="50" fill="#17212b"/>
+    <rect x="556" y="638" width="368" height="34" rx="17" fill="#0e1621" stroke="#2a3a52"/>
+    <text x="576" y="660" font-size="15" font-weight="700" fill="#e2e8f0">/</text>
+  </g>
+</svg>
